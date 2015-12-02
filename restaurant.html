@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Outeaters - restaurant</title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/restaurant.css">
+	</head>
+	<body>
+
+    <div class="jumbotron">
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+              <a class="navbar-brand" href="#">Outeaters</a>
+          </div>
+          <div>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a class="navbar-login-signup">Log in/Sign up</a></li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+      <h1>Restaurant name</h1>
+      <p>address</p>
+      <p>phone</p>
+      <button type="button" class="btn btn-default votes pull-right">votes</button>
+      <button type="button" class="btn btn-default create-meal pull-right" href="#dashboard-stats">Create a meal</button>
+    </div>
+
+    <div class="container">      
+      <div class="chart-wrap">
+        <div id="dashboard-stats" class="chart bars-horizontal brand-primary">
+          <div class="row">
+            <span class="label">Interest 1</span>
+            <div class="bar-wrap">
+              <div class="bar" data-value="62"></div>
+            </div>
+            <span class="number">62</span>
+          </div>
+          <div class="row">
+            <span class="label">Interest 2</span>
+            <div class="bar-wrap">
+              <div class="bar" data-value="35"></div>
+            </div>
+            <span class="number">35</span>
+          </div>
+          <div class="row">
+            <span class="label">Interest 3</span>
+            <div class="bar-wrap">
+              <div class="bar" data-value="18"></div>
+            </div>
+            <span class="number">18</span>
+          </div>
+          <div class="row">
+            <span class="label">Interest 4</span>
+            <div class="bar-wrap">
+              <div class="bar" data-value="13"></div>
+            </div>
+            <span class="number">13</span>
+          </div>
+          <div class="row">
+            <span class="label">Interest 5</span>
+            <div class="bar-wrap">
+              <div class="bar" data-value="8"></div>
+            </div>
+            <span class="number">8</span>
+          </div>
+          <div class="row">
+            <span class="label">Interest 6</span>
+            <div class="bar-wrap">
+              <div class="bar" data-value="5"></div>
+            </div>
+            <span class="number">5</span>
+          </div>
+          <div class="row">
+            <span class="label">Interest 7</span>
+            <div class="bar-wrap">
+              <div class="bar" data-value="2"></div>
+            </div>
+            <span class="number">2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+		<script src="jquery/jquery.min.js"></script>
+		<script src="js/restaurant.js"></script>
+		<script src="bootstrap/bootstrap.min.js"></script>
+	</body>
+</html>
