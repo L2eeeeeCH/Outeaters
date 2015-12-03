@@ -1,30 +1,15 @@
 body {
   padding-bottom: 20px;
 }
-nav.navbar {
-	margin-top: 5px;
-	margin-bottom: 0px;
-	background: none;
-	border: none;
-}
-.navbar-inverse .navbar-brand,
-.navbar-inverse .navbar-brand:hover,
-.navbar-inverse .navbar-brand:active {
-	color: #4e555f;
-}
-.navbar-inverse .navbar-nav .navbar-login-signup,
-.navbar-inverse .navbar-nav .navbar-login-signup:hover,
-.navbar-inverse .navbar-nav .navbar-login-signup:active {
-	color: #4e555f;
-}
+
 .jumbotron {
 	padding: 5px 50px 50px 50px;
-	margin-top: 0px;
+  margin-top: 50px;
 	color: #4e555f;
 	height: 460px;
 }
 .jumbotron button {
-	margin-top: 150px;
+	margin-top: 200px;
 }
 button.create-meal {
 	margin-right: 3px; 

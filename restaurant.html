@@ -7,30 +7,47 @@
 		<title>Outeaters - restaurant</title>
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="css/restaurant.css">
+		<link rel="stylesheet" type="text/css" href="css/stylesheets/restaurant.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheets/header.css">
 	</head>
 	<body>
 
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Outeaters</a>
+     <nav id="mainNav" class="navbar  navbar-fixed-top " >
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Outeaters</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#Log in">Log in / Sign up</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <div>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a class="navbar-login-signup">Log in/Sign up</a></li>
-          </ul>
-        </div>
-      </div>
+        <!-- /.container-fluid -->
     </nav>
 
+
     <div class="jumbotron">
-      
-      <h1>Restaurant name</h1>
-      <p>address</p>
-      <p>phone</p>
-      <button type="button" class="btn btn-default votes pull-right">votes</button>
-      <button type="button" class="btn btn-default create-meal pull-right" href="#dashboard-stats">Create a meal</button>
+      <div class="container">
+        <h1>Restaurant name</h1>
+        <p>address</p>
+        <p>phone</p>
+        <button type="button" class="btn btn-default votes pull-right">votes</button>
+        <button type="button" class="btn btn-default create-meal pull-right" href="#dashboard-stats">Create a meal</button>
+    </div>
     </div>
 
     <div class="container">      
