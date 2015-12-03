@@ -26,9 +26,14 @@ a{
 
 }
 
-.navbar .nav > li > a:active {
+.navbar .nav > li.active > a, .navbar .nav > li.active > a:focus {
+  color: white !important;
+  /*when scrolling ,navbar will change color*/
   background: #16a085;
-
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 
