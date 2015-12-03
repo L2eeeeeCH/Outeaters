@@ -27,10 +27,19 @@ h1 ,h2 {
   border-color: transparent;
   @include transition(all 0.6s ease);
 
-   .navbar-header .navbar-brand {
+    .navbar-header .navbar-brand {
       font-size:24px;
       color: $navBartitle;
 
+    }
+
+    .navbar-toggle  {
+      border: 1px solid $navBartitle;
+      border-color: $navBartitle;
+
+      .icon-bar{
+        background-color: $navBartitle;
+      }
     }
 
     .nav > li > a {
@@ -57,6 +66,15 @@ h1 ,h2 {
 
 .navbar.affix {
   background:$navBartitle;
+
+  .navbar-toggle  {
+      border: 1px solid white;
+      border-color: white;
+
+      .icon-bar{
+        background-color: white;
+      }
+  }
 
   .navbar-header .navbar-brand {
     font-size: 30px;

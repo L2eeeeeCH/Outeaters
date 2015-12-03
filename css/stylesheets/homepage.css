@@ -95,19 +95,28 @@ h1, h2 {
   color: #1abc9c;
 }
 /* line 36, ../sass/homepage.scss */
+.navbar .navbar-toggle {
+  border: 1px solid #1abc9c;
+  border-color: #1abc9c;
+}
+/* line 40, ../sass/homepage.scss */
+.navbar .navbar-toggle .icon-bar {
+  background-color: #1abc9c;
+}
+/* line 45, ../sass/homepage.scss */
 .navbar .nav > li > a {
   color: #1abc9c;
 }
-/* line 39, ../sass/homepage.scss */
+/* line 48, ../sass/homepage.scss */
 .navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
   color: #16a085;
   background: transparent;
 }
-/* line 44, ../sass/homepage.scss */
+/* line 53, ../sass/homepage.scss */
 .navbar .nav > li > a:active {
   background: transparent;
 }
-/* line 49, ../sass/homepage.scss */
+/* line 58, ../sass/homepage.scss */
 .navbar .nav > li.active > a {
   /*when scrolling ,navbar will change color*/
   background: #16a085;
@@ -118,26 +127,35 @@ h1, h2 {
 }
 
 /*srolling change */
-/* line 58, ../sass/homepage.scss */
+/* line 67, ../sass/homepage.scss */
 .navbar.affix {
   background: #1abc9c;
 }
-/* line 61, ../sass/homepage.scss */
+/* line 70, ../sass/homepage.scss */
+.navbar.affix .navbar-toggle {
+  border: 1px solid white;
+  border-color: white;
+}
+/* line 74, ../sass/homepage.scss */
+.navbar.affix .navbar-toggle .icon-bar {
+  background-color: white;
+}
+/* line 79, ../sass/homepage.scss */
 .navbar.affix .navbar-header .navbar-brand {
   font-size: 30px;
   color: white;
 }
-/* line 67, ../sass/homepage.scss */
+/* line 85, ../sass/homepage.scss */
 .navbar.affix .nav > li > a {
   color: white;
 }
-/* line 71, ../sass/homepage.scss */
+/* line 89, ../sass/homepage.scss */
 .navbar.affix .nav > li > a:hover, .navbar.affix .nav > li > a:focus {
   background: #16a085;
 }
 
 /*Background Image and content */
-/* line 79, ../sass/homepage.scss */
+/* line 97, ../sass/homepage.scss */
 .fixed-background {
   background: url(homepage.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -149,7 +167,7 @@ h1, h2 {
   overflow: hidden;
 }
 
-/* line 90, ../sass/homepage.scss */
+/* line 108, ../sass/homepage.scss */
 .fixed-background img {
   height: auto;
   width: auto;
@@ -157,7 +175,7 @@ h1, h2 {
   min-height: 100%;
 }
 
-/* line 97, ../sass/homepage.scss */
+/* line 115, ../sass/homepage.scss */
 .header-content {
   position: relative;
   width: 100%;
@@ -168,18 +186,18 @@ h1, h2 {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 104, ../sass/homepage.scss */
+/* line 122, ../sass/homepage.scss */
 .header-content h1 {
   font-size: 80px;
   color: white;
 }
-/* line 109, ../sass/homepage.scss */
+/* line 127, ../sass/homepage.scss */
 .header-content h1 span {
   color: #1abc9c;
 }
 
 /*header Button*/
-/* line 116, ../sass/homepage.scss */
+/* line 134, ../sass/homepage.scss */
 .btn-circle {
   width: 70px;
   height: 70px;
@@ -190,20 +208,20 @@ h1, h2 {
   font-size: 40px;
   color: #fff;
 }
-/* line 125, ../sass/homepage.scss */
+/* line 143, ../sass/homepage.scss */
 .btn-circle:hover, .btn-circle:focus {
   outline: 0;
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
 }
-/* line 131, ../sass/homepage.scss */
+/* line 149, ../sass/homepage.scss */
 .btn-circle i.animated {
   -webkit-transition-property: -webkit-transform;
   -webkit-transition-duration: 2s;
   -moz-transition-property: -moz-transform;
   -moz-transition-duration: 2s;
 }
-/* line 138, ../sass/homepage.scss */
+/* line 156, ../sass/homepage.scss */
 .btn-circle:hover i.animated {
   -webkit-animation-name: pulse;
   -moz-animation-name: pulse;
@@ -216,13 +234,13 @@ h1, h2 {
 }
 
 /*Masonry Content*/
-/* line 152, ../sass/homepage.scss */
+/* line 170, ../sass/homepage.scss */
 .MasonryContent {
   position: relative;
   margin-top: 1000px;
 }
 
-/* line 157, ../sass/homepage.scss */
+/* line 175, ../sass/homepage.scss */
 .discover-content > h2 {
   position: relative;
   text-align: center;
@@ -230,20 +248,20 @@ h1, h2 {
   color: gray;
 }
 
-/* line 163, ../sass/homepage.scss */
+/* line 181, ../sass/homepage.scss */
 .discover-content > hr {
   border: none;
   border: 3px solid #1abc9c;
   max-width: 60px;
 }
 
-/* line 170, ../sass/homepage.scss */
+/* line 188, ../sass/homepage.scss */
 #container {
   padding-left: 100px;
   top: 50%;
 }
 
-/* line 175, ../sass/homepage.scss */
+/* line 193, ../sass/homepage.scss */
 .item img {
   width: 220px;
   margin: 5px;
