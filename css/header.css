@@ -1,23 +1,23 @@
-.navbar.affix {
+.navbar {
   background: #1abc9c;
 }
 /* line 63, ../sass/screen.scss */
-.navbar.affix .navbar-header .navbar-brand {
+.navbar .navbar-header .navbar-brand {
   font-size: 30px;
   color: white;
 }
 /* line 67, ../sass/screen.scss */
-.navbar.affix .navbar-header .navbar-brand:hover, .navbar.affix .navbar-header .navbar-brand:focus {
+.navbar .navbar-header .navbar-brand:hover, .navbar .navbar-header .navbar-brand:focus {
   color: white;
 
 }
 /* line 72, ../sass/screen.scss */
-.navbar.affix .nav > li > a, .navbar.affix .nav > li > a:focus {
+.navbar .nav > li > a, .navbar .nav > li > a:focus {
   color: white;
 
 }
 /* line 76, ../sass/screen.scss */
-.navbar.affix .nav > li > a:hover, .navbar.affix .nav > li > a:focus:hover {
+.navbar .nav > li > a:hover, .navbar .nav > li > a:focus:hover {
   color: white;
   background: #16a085;
 }
