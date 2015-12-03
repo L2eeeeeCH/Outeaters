@@ -24,6 +24,7 @@ a{
 .navbar .nav > li > a {
   color: white;
 
+
 }
 
 .navbar .nav > li.active > a, .navbar .nav > li.active > a:focus {
@@ -44,6 +45,7 @@ a{
 .navbar .nav > li > a:hover {
   /*color: white;*/
   background: #16a085;
+
 }
 
 
