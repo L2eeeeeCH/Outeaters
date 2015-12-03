@@ -25,6 +25,14 @@ a{
   color: white;
 
 }
+
+.navbar .nav > li > a:active {
+  background: #16a085;
+
+}
+
+
+
 /* line 76, ../sass/screen.scss */
 .navbar .nav > li > a:hover, .navbar .nav > li > a:focus:hover {
   color: white;
