@@ -2,9 +2,9 @@
 Error: File to import not found or unreadable: compass/css.
        Load paths:
          Compass::SpriteImporter
-         C:/Users/user/Desktop/homepage/Scss/sass
+         C:/Users/user/Desktop/Outeaters/css/sass
          D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets
-        on line 6 of C:/Users/user/Desktop/homepage/Scss/sass/print.scss
+        on line 6 of C:/Users/user/Desktop/Outeaters/css/sass/print.scss
 
 1: /* Welcome to Compass. Use this file to define print styles.
 2:  * Import this file using the following HTML or equivalent:
@@ -14,7 +14,7 @@ Error: File to import not found or unreadable: compass/css.
 6: @import "compass/css";
 
 Backtrace:
-C:/Users/user/Desktop/homepage/Scss/sass/print.scss:6
+C:/Users/user/Desktop/Outeaters/css/sass/print.scss:6
 D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/import_node.rb:67:in `rescue in import'
 D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/import_node.rb:45:in `import'
 D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -59,4 +59,4 @@ D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: compass/css.\A        Load paths:\A          Compass::SpriteImporter\A          C:/Users/user/Desktop/homepage/Scss/sass\A          D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets\A         on line 6 of C:/Users/user/Desktop/homepage/Scss/sass/print.scss\A \A 1: /* Welcome to Compass. Use this file to define print styles.\A 2:  * Import this file using the following HTML or equivalent:\A 3:  * <link href=\"/stylesheets/print.css\" media=\"print\" rel=\"stylesheet\" type=\"text/css\" /> */\A 4: \A 5: @import \"compass/reset\";\A 6: @import \"compass/css\";"; }
+  content: "Error: File to import not found or unreadable: compass/css.\A        Load paths:\A          Compass::SpriteImporter\A          C:/Users/user/Desktop/Outeaters/css/sass\A          D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets\A         on line 6 of C:/Users/user/Desktop/Outeaters/css/sass/print.scss\A \A 1: /* Welcome to Compass. Use this file to define print styles.\A 2:  * Import this file using the following HTML or equivalent:\A 3:  * <link href=\"/stylesheets/print.css\" media=\"print\" rel=\"stylesheet\" type=\"text/css\" /> */\A 4: \A 5: @import \"compass/reset\";\A 6: @import \"compass/css\";"; }

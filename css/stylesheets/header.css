@@ -3,51 +3,34 @@
 a{
   font-family: 'Noto Sans';
 }
-/* this is the navbar font.
-<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
-*/
 
+/*srolling change */
+/* line 58, ../sass/homepage.scss */
 .navbar {
   background: #1abc9c;
 }
-/* line 63, ../sass/screen.scss */
+/* line 61, ../sass/homepage.scss */
 .navbar .navbar-header .navbar-brand {
   font-size: 30px;
   color: white;
 }
-/* line 67, ../sass/screen.scss */
-.navbar .navbar-header .navbar-brand:hover, .navbar .navbar-header .navbar-brand:focus {
-  color: white;
-
-}
-/* line 72, ../sass/screen.scss */
+/* line 67, ../sass/homepage.scss */
 .navbar .nav > li > a {
   color: white;
-
-
+}
+/* line 71, ../sass/homepage.scss */
+.navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
+  background: #16a085;
 }
 
-.navbar .nav > li.active > a, .navbar .nav > li.active > a:focus {
-  color: white !important;
+.navbar .nav > li.active > a {
   /*when scrolling ,navbar will change color*/
   background: #16a085;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  
-  
 }
-
-
-
-/* line 76, ../sass/screen.scss */
-.navbar .nav > li > a:hover {
-  /*color: white;*/
-  background: #16a085;
-
-}
-
 
 
 /*My header html

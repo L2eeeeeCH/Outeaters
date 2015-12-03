@@ -8,16 +8,13 @@
 
 /*css variable */
 
-$greenColor: green;
-$whiteColor: white;
-$grayColor: gray;
-$orangeColor: orange;
+$navBartitle: #1abc9c;
+$navBarhover: #16a085;
 
-$OrangeAffix: #f05f40;
 
 /* font */
 a {
-  font-family: 'Bitter', serif;
+  font-family: 'Noto Sans';
 }
 h1 ,h2 {
   font-family: 'Lobster', cursive;
@@ -31,26 +28,27 @@ h1 ,h2 {
   @include transition(all 0.6s ease);
 
    .navbar-header .navbar-brand {
-      font:30px;
-      color: $orangeColor;
+      font-size:24px;
+      color: $navBartitle;
 
-      &:hover, &focus {
-        color:red;
-      }
     }
 
     .nav > li > a {
-  	  color: $orangeColor;
+  	  color: $navBartitle;
 
-  	  &:hover{
-  	  	color:red;
+  	  &:hover , &:focus {
+  	  	color:$navBarhover;
   	  	background:transparent;
   	  }
-	}
 
-	.nav > li.active > a , .nav > li.active > a:focus {
-      color: red!important; /*when scrolling ,navbar will change color*/
-      background:transparent;
+      &:active{
+        background:transparent;
+      }
+	  }
+
+	  .nav > li.active > a {
+       /*when scrolling ,navbar will change color*/
+      background:$navBarhover;
       @include transition(all 0.5s);
     }
 }
@@ -58,23 +56,20 @@ h1 ,h2 {
 /*srolling change */
 
 .navbar.affix {
-  background:$whiteColor;
+  background:$navBartitle;
 
   .navbar-header .navbar-brand {
     font-size: 30px;
-    color: $greenColor;
+    color: white;
 
-   	&:hover ,&:focus {
-   	  color: red;
-   	}
   }
 
-  .nav > li > a , .nav > li > a:focus {
-    color: $greenColor;
+  .nav > li > a {
+    color: white;
   }
 
-  .nav > li > a:hover , .nav > li > a:focus:hover {
-    color: red;
+  .nav > li > a:hover , .nav > li > a:focus {
+    background: $navBarhover;
   }
 
 }
@@ -82,12 +77,13 @@ h1 ,h2 {
 
 /*Background Image and content */
 .fixed-background {
-  background-image: url(city.jpg);
+  background: url(homepage.jpg) no-repeat center center fixed;
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
-  width: 100%;
+  min-width: 100%;
   overflow: hidden;
 }
 
@@ -108,10 +104,10 @@ h1 ,h2 {
   h1{
 
   	font-size: 80px;
-  	color:$whiteColor;
+  	color:white;
 
   	span{
-  	  color:$greenColor;
+  	  color:$navBartitle;
   	}
   }
 }
@@ -162,11 +158,11 @@ h1 ,h2 {
   position: relative;
   text-align: center;
   font-size: 50px;
-  color:$grayColor;
+  color:gray;
 }
 .discover-content > hr {
   border:none;
-  border:3px solid $greenColor;
+  border:3px solid $navBartitle;
   max-width:60px; 
 }
 
