@@ -70,14 +70,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /*css variable */
 /* font */
 /* line 19, ../sass/screen.scss */
- h3{
-  font-family: 'Bitter', serif;
+ a{
+  font-family: 'Noto Sans';
 }
 
 /* line 22, ../sass/screen.scss */
-a,h1, h2 {
+h1, h2 {
   font-family: 'Lobster', cursive;
 }
+
 
 /*navbar Content*/
 /* line 28, ../sass/screen.scss */
@@ -100,9 +101,6 @@ a,h1, h2 {
 }
 /* line 42, ../sass/screen.scss */
 .navbar .nav > li > a {
-  border-color: #1abc9c;
-  border: 1px solid;
-  border-radius: 10px;
   color: #1abc9c;
 }
 /* line 45, ../sass/screen.scss */
@@ -150,12 +148,13 @@ a,h1, h2 {
 /*Background Image and content */
 /* line 84, ../sass/screen.scss */
 .fixed-background {
-  background-image: url(city.jpg);
+  background: url(yellow.jpg) no-repeat center center fixed;
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
-  width: 100%;
+  min-width: 100%;
   overflow: hidden;
 }
 
