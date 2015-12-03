@@ -21,7 +21,7 @@ a{
 
 }
 /* line 72, ../sass/screen.scss */
-.navbar .nav > li > a, .navbar .nav > li > a:focus {
+.navbar .nav > li > a {
   color: white;
 
 }
@@ -39,8 +39,8 @@ a{
 
 
 /* line 76, ../sass/screen.scss */
-.navbar .nav > li > a:hover, .navbar .nav > li > a:focus:hover {
-  color: white;
+.navbar .nav > li > a:hover {
+  /*color: white;*/
   background: #16a085;
 }
 
