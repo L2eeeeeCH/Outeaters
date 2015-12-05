@@ -68,19 +68,49 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /*css variable */
+/* line 17, ../sass/homepage.scss */
+html, body {
+  height: 100%;
+}
+
 /* font */
-/* line 16, ../sass/homepage.scss */
+/* line 22, ../sass/homepage.scss */
 a {
   font-family: 'Noto Sans';
 }
 
-/* line 19, ../sass/homepage.scss */
-h1, h2 {
+/* line 25, ../sass/homepage.scss */
+h1, h2, h3, p {
   font-family: 'Lobster', cursive;
 }
 
+/* line 29, ../sass/homepage.scss */
+hr {
+  border: none;
+  border: 3px solid #1abc9c;
+  max-width: 60px;
+}
+
+/* line 35, ../sass/homepage.scss */
+h2 {
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  color: gray;
+}
+
+/* line 43, ../sass/homepage.scss */
+h3 {
+  position: relative;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
 /*navbar Content*/
-/* line 25, ../sass/homepage.scss */
+/* line 56, ../sass/homepage.scss */
 .navbar {
   background: transparent;
   border-color: transparent;
@@ -89,34 +119,34 @@ h1, h2 {
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
-/* line 30, ../sass/homepage.scss */
+/* line 61, ../sass/homepage.scss */
 .navbar .navbar-header .navbar-brand {
   font-size: 24px;
   color: #1abc9c;
 }
-/* line 36, ../sass/homepage.scss */
+/* line 67, ../sass/homepage.scss */
 .navbar .navbar-toggle {
   border: 1px solid #1abc9c;
   border-color: #1abc9c;
 }
-/* line 40, ../sass/homepage.scss */
+/* line 71, ../sass/homepage.scss */
 .navbar .navbar-toggle .icon-bar {
   background-color: #1abc9c;
 }
-/* line 45, ../sass/homepage.scss */
+/* line 76, ../sass/homepage.scss */
 .navbar .nav > li > a {
   color: #1abc9c;
 }
-/* line 48, ../sass/homepage.scss */
+/* line 79, ../sass/homepage.scss */
 .navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
   color: #16a085;
   background: transparent;
 }
-/* line 53, ../sass/homepage.scss */
+/* line 84, ../sass/homepage.scss */
 .navbar .nav > li > a:active {
   background: transparent;
 }
-/* line 58, ../sass/homepage.scss */
+/* line 89, ../sass/homepage.scss */
 .navbar .nav > li.active > a {
   /*when scrolling ,navbar will change color*/
   background: #16a085;
@@ -127,56 +157,51 @@ h1, h2 {
 }
 
 /*srolling change */
-/* line 67, ../sass/homepage.scss */
+/* line 98, ../sass/homepage.scss */
 .navbar.affix {
   background: #1abc9c;
 }
-/* line 70, ../sass/homepage.scss */
+/* line 101, ../sass/homepage.scss */
 .navbar.affix .navbar-toggle {
   border: 1px solid white;
   border-color: white;
 }
-/* line 74, ../sass/homepage.scss */
+/* line 105, ../sass/homepage.scss */
 .navbar.affix .navbar-toggle .icon-bar {
   background-color: white;
 }
-/* line 79, ../sass/homepage.scss */
+/* line 110, ../sass/homepage.scss */
 .navbar.affix .navbar-header .navbar-brand {
   font-size: 30px;
   color: white;
 }
-/* line 85, ../sass/homepage.scss */
+/* line 116, ../sass/homepage.scss */
 .navbar.affix .nav > li > a {
   color: white;
 }
-/* line 89, ../sass/homepage.scss */
+/* line 120, ../sass/homepage.scss */
 .navbar.affix .nav > li > a:hover, .navbar.affix .nav > li > a:focus {
   background: #16a085;
 }
 
 /*Background Image and content */
-/* line 97, ../sass/homepage.scss */
-.fixed-background {
-  background: url(homepage.jpg) no-repeat center center fixed;
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
+/* line 128, ../sass/homepage.scss */
+header {
   height: 100%;
-  min-width: 100%;
-  overflow: hidden;
 }
-
-/* line 108, ../sass/homepage.scss */
-.fixed-background img {
-  height: auto;
-  width: auto;
-  min-width: 100%;
-  min-height: 100%;
+/* line 131, ../sass/homepage.scss */
+header .fixed-background {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
-
-/* line 115, ../sass/homepage.scss */
-.header-content {
+/* line 140, ../sass/homepage.scss */
+header .header-content {
   position: relative;
   width: 100%;
   text-align: center;
@@ -186,18 +211,18 @@ h1, h2 {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 122, ../sass/homepage.scss */
-.header-content h1 {
+/* line 147, ../sass/homepage.scss */
+header .header-content h1 {
   font-size: 80px;
   color: white;
 }
-/* line 127, ../sass/homepage.scss */
-.header-content h1 span {
+/* line 152, ../sass/homepage.scss */
+header .header-content h1 span {
   color: #1abc9c;
 }
 
 /*header Button*/
-/* line 134, ../sass/homepage.scss */
+/* line 161, ../sass/homepage.scss */
 .btn-circle {
   width: 70px;
   height: 70px;
@@ -208,20 +233,20 @@ h1, h2 {
   font-size: 40px;
   color: #fff;
 }
-/* line 143, ../sass/homepage.scss */
+/* line 170, ../sass/homepage.scss */
 .btn-circle:hover, .btn-circle:focus {
   outline: 0;
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
 }
-/* line 149, ../sass/homepage.scss */
+/* line 176, ../sass/homepage.scss */
 .btn-circle i.animated {
   -webkit-transition-property: -webkit-transform;
   -webkit-transition-duration: 2s;
   -moz-transition-property: -moz-transform;
   -moz-transition-duration: 2s;
 }
-/* line 156, ../sass/homepage.scss */
+/* line 183, ../sass/homepage.scss */
 .btn-circle:hover i.animated {
   -webkit-animation-name: pulse;
   -moz-animation-name: pulse;
@@ -234,36 +259,93 @@ h1, h2 {
 }
 
 /*Masonry Content*/
-/* line 170, ../sass/homepage.scss */
+/* line 197, ../sass/homepage.scss */
 .MasonryContent {
+  background: white;
+  /*inorder to hide the footer*/
   position: relative;
-  margin-top: 1000px;
 }
 
-/* line 175, ../sass/homepage.scss */
-.discover-content > h2 {
-  position: relative;
-  text-align: center;
-  font-size: 50px;
-  color: gray;
-}
-
-/* line 181, ../sass/homepage.scss */
-.discover-content > hr {
-  border: none;
-  border: 3px solid #1abc9c;
-  max-width: 60px;
-}
-
-/* line 188, ../sass/homepage.scss */
+/* line 203, ../sass/homepage.scss */
 #container {
   padding-left: 100px;
   top: 50%;
 }
 
-/* line 193, ../sass/homepage.scss */
+/* line 208, ../sass/homepage.scss */
 .item img {
   width: 220px;
   margin: 5px;
   float: left;
+}
+
+/* Our team content */
+/* line 217, ../sass/homepage.scss */
+.about-us {
+  background-color: #EFE6C1;
+  margin-bottom: 300px;
+  position: relative;
+  text-align: center;
+}
+/* line 224, ../sass/homepage.scss */
+.about-us .team-member {
+  text-align: center;
+  margin-top: 20px;
+}
+/* line 229, ../sass/homepage.scss */
+.about-us .team-member img {
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+}
+
+/*Footer Content*/
+/* line 239, ../sass/homepage.scss */
+.Contact {
+  width: 100%;
+  height: 300px;
+  position: fixed;
+  background-position: center;
+  bottom: 0;
+  color: #ef4a4a;
+  text-align: center;
+  z-index: -1;
+}
+/* line 250, ../sass/homepage.scss */
+.Contact .contact-content {
+  position: relative;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* line 256, ../sass/homepage.scss */
+.Contact .contact-content p {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+/* line 260, ../sass/homepage.scss */
+.Contact .contact-content p span {
+  color: #1abc9c;
+}
+/* line 265, ../sass/homepage.scss */
+.Contact .contact-content li {
+  display: inline;
+}
+/* line 268, ../sass/homepage.scss */
+.Contact .contact-content li #social-website {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-size: 25px;
+  margin: 5px;
+  color: white;
+}
+/* line 277, ../sass/homepage.scss */
+.Contact .contact-content li #social-website:hover {
+  color: #16a085;
+  border: 1px solid #16a085;
 }
