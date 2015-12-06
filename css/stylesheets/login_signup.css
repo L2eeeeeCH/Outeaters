@@ -50,3 +50,9 @@ h2{
   padding-left: 3px;
   padding-right: 0px;
 }
+#btn-facebook {
+  background: #3b5998;
+}
+#btn-google {
+  background: #dd4b39;
+}

@@ -7,7 +7,8 @@
 		<title>Outeaters - login/signup</title>
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="css/login_signup.css">
+        <link rel="stylesheet" href="flat-ui/dist/css/flat-ui.min.css" >
+		<link rel="stylesheet" type="text/css" href="css/stylesheets/login_signup.css">
 	</head>
 	<body>
     <div class="container">
@@ -15,10 +16,10 @@
       <form class="form-signin">
         <h2 class="form-signin-heading">Outeaters</h2>
         <div class="col-xs-6 col-sm-6 col-md-6 button-left">
-        	<button class="btn btn-default">Facebook</button>
+        	<button class="btn btn-default" id="btn-facebook">Facebook</button>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6 button-right">
-        	<button class="btn btn-default">Google</button>
+        	<button class="btn btn-default" id="btn-google">Google</button>
         </div>
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
@@ -28,7 +29,7 @@
         	<button class="btn btn-lg btn-default" type="submit">Sign up</button>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6 button-right">
-        	<button class="btn btn-lg btn-primary" type="submit">Log in</button>
+        	<button class="btn btn-lg btn-default" type="submit">Log in</button>
         </div>
       </form>
 
