@@ -25,7 +25,7 @@ $(function(){
       var $anchor = $(this);
       
       $('html, body').animate({
-      scrollTop: $($anchor.attr('href')).offset().top-55
+      scrollTop: $($anchor.attr('href')).offset().top-40
       }, 2000);
       return false;
       helpers : {
