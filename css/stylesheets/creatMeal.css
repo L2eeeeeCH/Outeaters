@@ -1,11 +1,12 @@
-
-.modal-header{
-  width:;
-  height:;
+.modal{
+  position: fixed;
+  top: 10%;
 }
 .modal-body{
-  width:;
   height:470px;
+}
+.modal-content {
+  border-radius: 0px;
 }
 #modal-up{
   width:300px;
@@ -22,9 +23,7 @@
 #modal-imgInp,#modal-labelbtn {
   width:100px;
   height:30px;
-  margin:auto;
-  border-radius: 5px;  
-  
+  margin:auto;  
   position: absolute;
   right:0;
   bottom:0;
@@ -36,8 +35,4 @@
 #modal-imgInp {
   opacity: 0; 
 }
-
-
-
-
 
