@@ -13,14 +13,5 @@ $("#modal-imgInp").change(function(){
     readURL(this);
 });
 
-$("#bot").on('click', function(){
-  
-
-    
-    $texto = ' <div class="cuadro"><input name="userfile[]" type="file" /></div>';
-    $('#form2 .cuadro').last().after($texto );  
-
-
-});
 
 
