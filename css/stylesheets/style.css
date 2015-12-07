@@ -239,7 +239,7 @@ button:focus {
   background: transparent;
 }
 .modal__dialog {
-  max-width: 1200px;                        /*modal's width*/
+  max-width: 1500px;                        /*modal's width*/
   padding: 1.2rem;
 }
 .modal__content {
@@ -268,12 +268,12 @@ button:focus {
 }
 .modal__trigger {
   position: relative;
-  /*display: inline-block;
+  display: inline-block;
   padding: 1.2rem 2.4rem;
   color: rgba(0,0,0,0.7);
   line-height: normal;
   background: #ffebee;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);*/
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
   -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
           transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
