@@ -5,20 +5,19 @@
 	right: 20px;
 	position: relative;
 }
-#body{
-	width: 80%;
+.profile-body{
+	width: 60%;
 	height: 1500px;
-	background-color: ;
+	background-color: none;
 	margin:0 auto;
-	margin-top: 60px;
+	margin-top: 90px;
+	text-align: center;
 }
 
 .row{
 	text-align: center;
 }
-.brick{
-	margin-top: 25px;
-}
+
 
 .glyphicon-heart{
 	color:red;
@@ -26,5 +25,20 @@
 
 .heartNum{
 	font-size: 150%;
-	color:white;
+	color:black;
+}
+.profileMeal{
+	text-align: center;
+}
+.profile-btn{
+
+	margin-bottom: 40px;
+}
+.btn-primary{
+	background-color: white;
+	color: #1abc9c;
+	border: 1px solid #1abc9c;
+}
+.btn-primary:active{
+	background-color: #16a085;
 }
