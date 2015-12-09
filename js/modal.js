@@ -1,12 +1,18 @@
-window.onload = eventLoad;
-
 $(function(){
 	$("#photoList img").click(function(){
 
-		var N = $(this).attr("id").substr(3);
+		//var N = $(this).attr("id").substr(3);
 
-		//var Photo_Path = $(this).attr("src");
+		var Photo_Path = $(this).attr("src");
 
-		$("#mainPhoto").attr( "src", "img/meal.jpg");
+		if(Photo_Path == "img/add.jpg")
+		{
+
+		}
+		else
+		{
+			$("#mainPhoto").attr( "src", Photo_Path);
+		}
+		
 	});
 });

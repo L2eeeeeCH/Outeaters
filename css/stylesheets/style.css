@@ -88,9 +88,21 @@ figure.user_meal .author span {
   font-family: 'Noto Sans';
 }
 
+.like,
+.collect, 
+.share {
+  margin: 0 0 0.5rem 0;
+}
+
 ul.meal-list li{
   display: inline-block;
   position: relative;
+}
+
+ul.feature_btn li{
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
 }
 
 .add_meal img {
@@ -113,6 +125,45 @@ ul.meal-list li{
   max-width: 80px;
   max-height: 80px;
 }
+
+.like * {
+  transition: all 0.3s linear;
+}
+
+.like-toggle{
+  outline:none;
+  box-shadow:none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 1.8em;
+  border-radius: 100px;
+}
+
+#haert {
+  font-size: 1.0em;
+}
+.like-toggle.basic3{
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2em;
+  border-radius: 100px;
+  background: rgba(0,0,0,0.3);
+  color: #eee;
+  margin-bottom: 10px;
+}
+
+.like-active.basic3{
+  background: #7CC576;
+  transform: rotate(-360deg);
+}
+
+.like-toggle.basic3:not(.like-active):hover{
+  background: #7CC576;
+  /*transform: rotate(90deg);*/
+}
+
 body {
   line-height: 1.5;
   font-family: 'Roboto';
@@ -125,7 +176,7 @@ h2,
 h3,
 p {
   font-weight: 300;
-  margin: 0 0 2.4rem 0;
+  margin: 0 0 1.0rem 0;
 }
 
 h1,
@@ -192,11 +243,12 @@ button:focus {
           align-items: flex-start;
 }
 .modal__bg {
-  background: transparent;
+  /*background: transparent;*/
+  background: rgba(0%,0%,0%,0.6);
 }
 .modal__dialog {
-  max-width: 1500px;                        /*modal's width*/
-  padding: 1.2rem;
+  max-width: 1200px;                        /*modal's width*/
+  padding: 5rem;
 }
 .modal__content {
   will-change: transform, opacity;
