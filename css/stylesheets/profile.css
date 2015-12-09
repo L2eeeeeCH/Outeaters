@@ -1,30 +1,53 @@
-
-#userPicture{
-	float: right;
-	top: 8px;
-	right: 20px;
-	position: relative;
-}
-#body{
-	width: 80%;
+.profile-body{
+	width: 60%;
 	height: 1500px;
-	background-color: ;
+	background-color: none;
 	margin:0 auto;
-	margin-top: 60px;
+	margin-top: 90px;
+	text-align: center;
 }
-
 .row{
 	text-align: center;
 }
-.brick{
-	margin-top: 25px;
-}
-
 .glyphicon-heart{
 	color:red;
 }
-
 .heartNum{
 	font-size: 150%;
 	color:black;
+<<<<<<< HEAD
+=======
+}
+.profileMeal{
+	text-align: center;
+	color: white;
+
+}
+.profile-btn{
+	margin-bottom: 20px;
+}
+.btn-primary{
+	background-color: white;
+	color: #1abc9c;
+	border: 1px solid #1abc9c;
+}
+hr {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #1abc9c;
+    margin: 1em 0;
+    margin-bottom: 20px;
+    padding: 0; 
+}
+.mealCover{
+
+	padding: 0 0 0 0;
+	margin-top: 0px;
+	background-image: url("../../img/food25.jpg");
+	background-size: cover; 
+	background-position: center;
+	height:300px;
+
+>>>>>>> origin/master
 }

@@ -5,11 +5,10 @@
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-
+      <link rel="stylesheet" href="flat-ui/dist/css/flat-ui.min.css">
 	  <link rel="stylesheet" href="css/stylesheets/header.css">
 	  <link rel="stylesheet" href="css/stylesheets/profile.css">
-	  <script src="jquery/jquery.min.js"></script>
-	  <script src="bootstrap/js/bootstrap.min.js"></script>
+
 
 	</head>
 	<body>
@@ -23,24 +22,55 @@
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                </button>
-	                <a class="navbar-brand" href="#page-top">Outeaters</a>
+	                <a class="navbar-brand" href="index.html">Outeaters</a>
 	            </div>
 
 	            <!-- Collect the nav links, forms, and other content for toggling -->
 	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	                <ul class="nav navbar-nav navbar-right">
-	                <!--
+	                    
 	                    <li>
-	                        <a class="userpicture" href="#picture">
-				   				<img src="img/ID_photo.jpg" class="img-circle" width="40" height="40">
-				   			</a>
+	                        <a data-toggle="modal" data-target="#myModal">Create</a>
 	                    </li>
-	                -->
+	                    <li class="dropdown user user-menu">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+				            <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+				            <span class="hidden-xs">Alexander Pierce</span>
+				          </a>
+				          <ul class="dropdown-menu">
+				            <!-- User image -->
+				            <li class="user-header">
+				              <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+				              <p>
+				                Alexander Pierce - Web Developer
+				                <small>Member since Nov. 2012</small>
+				              </p>
+				            </li>
+				            <!-- Menu Body -->
+				            <li class="user-body">
+				              <div class="col-xs-4 text-center">
+				                <a href="#">Followers</a>
+				              </div>
+				              <div class="col-xs-4 text-center">
+				                <a href="#">Sales</a>
+				              </div>
+				              <div class="col-xs-4 text-center">
+				                <a href="#">Friends</a>
+				              </div>
+				            </li>
+				            <!-- Menu Footer-->
+				            <li class="user-footer">
+				              <div class="pull-left">
+				                <a href="#" class="btn btn-default btn-flat">Profile</a>
+				              </div>
+				              <div class="pull-right">
+				                <a href="#" class="btn btn-default btn-flat">Sign out</a>
+				              </div>
+				            </li>
+				          </ul>
+				        </li>
 	                    <li>
-	                        <a href="#UserName">UserName</a>
-	                    </li>
-	                    <li>
-	                        <a href="#Log out">Log out</a>
+	                        <a href="#">Log in / Sign up</a>
 	                    </li>
 	                    
 	                </ul>
@@ -51,194 +81,53 @@
 	    </nav>
 
 
-<!--
+	    <div class="profile-body">
+	    	<div class="profile-btn">
+	    		<button class="btn btn-lg btn-primary">收藏</button>
+	    		<button class="btn btn-lg btn-primary">posts</button>
 
-		<div id="header">
-			<div id="outeaters">
-				<a id="logo" href="#Outeaters">Outeaters</a>
-			</div>
+	    	</div>
+	    	<hr></hr>
+			<div id="body" class="row">
+		    	<a href="#">
+		    		<div class="profileMeal mealCover col-lg-4 col-md-6 col-sm-12">
+					<p class="heartNum">
+						<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
+					</p>
+					<!-- <a href="#">
+						<img src="img/food1.jpg">
+					</a>
+					<p class="heartNum">
+						<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
+					</p> -->
+		    		</div>
+		    	</a>
+		    	<!-- <div class="profileMeal col-lg-4 col-md-6 col-sm-12">
+					<a href="#">
+						<img src="img/food2.jpg">
+					</a>
+					<p class="heartNum">
+						<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
+					</p>
+		    	</div>
+		    	<div class="profileMeal col-lg-4 col-md-6 col-sm-12">
+					<a href="#">
+						<img src="img/food3.jpg">
+					</a>
+					<p class="heartNum">
+						<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
+					</p>
+		    	</div> -->
+		    </div>
+	    </div>
 
-	   		<div id="userName">
-	   			<a id="user-name" href="#UserName">UserName</a>
-	   		</div>
-	   		<div id="userPicture">
-	   			<a href="#">
-	   				<img src="ID_photo.jpg" class="img-circle" width="40" height="40">
-	   			</a>
-	   		</div>
-	    </div>
-	-->    
-	    <div id="body" class="row">
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    	<div class="brick col-lg-3">
-				<a href="#">
-					<img src="img/eelRice.jpg"  width="240" height="180">
-				</a>
-				<p class="heartNum">
-					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>100
-				</p>
-	    	</div>
-	    </div>
+
+
+
+  
 	    
-		
+	    
+		<script src="jquery/jquery.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
 	</body>
 </html>
