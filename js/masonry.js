@@ -3,6 +3,7 @@ $(function(){
   $('container').imagesLoaded(function(){
     $('#container').masonry({
       // options
+      isFitWidth: true,
       itemSelector : '.item', 
       columnWidth : 240 //列寬度(最小)
     })

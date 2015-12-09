@@ -22,8 +22,11 @@ html,body {
 a {
   font-family: 'Noto Sans';
 }
-h1, h2, h3, p{
+h1{
   font-family: 'Lobster', cursive;
+}
+h2, h3, h4, p{
+  font-family: 'Noto Sans';
 }
 
 hr {
@@ -197,26 +200,88 @@ header {
 .MasonryContent {
   background: white; /*inorder to hide the footer*/
   position: relative; 
-}
 
+}
 
 #container {
   padding-left: 100px;
-  top:50%;
+  
 }
 
-.item img {
-
-  width: 220px;
-  margin: 5px;
+.item {
+  
+  position: relative;
   float: left;
+  overflow: hidden;
+  margin: 5px;
+  width: 220px;
+  text-align: center;
+
+  *{
+    @include box-sizing(border-box);
+    @include transition(all 0.6s ease);
+    
+  }
+
+  img {
+    width: 100%;
+    @include transition(opacity 0.35s);
+  }
+
+  &:hover img{
+    opacity: 0.3;
+    @include filter(blur(4px));
+  }
+
+  .figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  h4,p {
+    
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;  /* let the word be not seen*/
+  }
+
+  h4 {
+    display: inline-block;
+    bottom: 50%;
+    font-size: 30px;
+    color:$navBartitle;
+    @include transform(translate3d(0%, -100%, 0));
+  }
+
+  p {
+    top: 50%;
+    font-size: 20px;
+    color:gray;
+    @include transform(translate3d(0%, 100%, 0)); /*to go down 100%*/
+  }
+
+  &:hover h4{
+   @include transform(translate3d(0%, -10%, 0));
+   opacity: 0.9;
+  }
+
+   &:hover p{
+   @include transform(translate3d(0%, 10%, 0));
+   opacity: 0.6;
+  }
+  
+
 }
 
 /* Our team content */
 
 .about-us{
 
-  background-color: #EFE6C1;
+  background-color: white;
   margin-bottom:$footerHeight;
   position: relative;
   text-align: center;
@@ -231,6 +296,10 @@ header {
       height:220px;
       margin: 0 auto;
     }
+  }
+
+  h3{
+    margin-bottom: $margin-top-space;
   } 
 
 }
