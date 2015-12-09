@@ -36,3 +36,11 @@
   opacity: 0; 
 }
 
+.modal-header{
+  position: relative;
+  margin-top: 0px;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 0px;
+}
