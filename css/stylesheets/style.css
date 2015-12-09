@@ -8,49 +8,7 @@
   background: #2B2B2B;
 }
 
-.mealgellary {
-  text-align: center;
-}
-
-ul.img-list {
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-ul.img-list li {
-  display: inline-block;
-  position: relative;
-}
-
-.AddMeal .avatar img {
-  opacity: 0;
-}
-
-.mealgellary .img-list .photo > img {
-  width: 250px;
-  height: 250px;
-  max-width: 250px;
-  max-height: 250px;
-}
-
-.mealgellary .img-list .avatar {
-  position: relative;
-  top: -50px;
-  margin-bottom: -50px;
-}
-
-.mealgellary .img-list .avatar img {
-  width: 100px;
-  height: 100px;
-  max-width: 100px;
-  max-height: 100px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border: 5px solid rgba(255,255,255,0.5);
-}
-
-figure.meal {
-  font-family: 'Raleway', Arial, sans-serif;
+figure.user_meal {
   position: relative;
   float: left;
   overflow: hidden;
@@ -63,22 +21,23 @@ figure.meal {
   box-shadow: none !important;
 }
 
-figure.meal * {
+figure.user_meal * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-figure.meal .author > img {
-  width: 100px;
-  height: 100px;
-  max-width: 100px;
-  max-height: 100px;
+figure.user_meal .author > img {
+  width: 80px;
+  height: 80px;
+  max-width: 80px;
+  max-height: 80px;
+  margin-left: 80px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border: 5px solid rgba(255,255,255,0.5);
 }
 
-figure.meal .photo > img {
+figure.user_meal .photo > img {
   display: block;
   margin: -10px 0 0;
   width: 300px;
@@ -87,25 +46,26 @@ figure.meal .photo > img {
   max-height: 300px;
 }
 
-figure.meal .author {
+figure.user_meal .author {
   margin: 0;
   height: 100px;
   display: block;
-  text-align: left;
+  text-align: center;
   padding: 0 35px;
   position: relative;
   z-index: 1;
 }
 
-figure.meal .author h4,
-figure.meal .author span {
-  left: 50%;
+figure.user_meal .author h4,
+figure.user_meal .author span {
+  font-family: 'Raleway', Arial, sans-serif;
+  left: 0%;
   position: absolute;
   opacity: 0.8;
   padding: 3px 5px;
 }
 
-figure.meal .author h4 {
+figure.user_meal .author h4 {
   text-transform: uppercase;
   bottom: 50%;
   margin: 0;
@@ -113,53 +73,40 @@ figure.meal .author h4 {
   color: #121212;
 }
 
-figure.meal .author span {
+figure.user_meal .author span {
   font-size: 1.0em;
   color: #000000;
   top: 50%;
   font-weight: 500;
 }
 
-.like * {
-  transition: all 0.3s linear;
+.restaurant_name h1 {
+  font-family: 'Noto Sans';
 }
 
-.like > span {
-  font-family: 'Amatic SC', cursive;
-  font-size: 30px;
+.meal_name h1 {
+  font-family: 'Noto Sans';
 }
 
-.like-toggle{
-  outline:none;
-  box-shadow:none;
-  border: none;
-  width: 40px;
-  height: 30px;
-  font-size: 1.8em;
-  border-radius: 100px;
+ul.meal-list li{
+  display: inline-block;
+  position: relative;
 }
 
-.like-toggle.basic3{
-  border: none;
-  width: 40px;
-  height: 40px;
-  font-size: 1.8em;
-  border-radius: 100px;
-  background: #e5fff7;
-  color: #eee;
-  margin-bottom: 10px;
+.add_meal img {
+  width: 100px;
+  height: 100px;
+  max-width: 80px;
+  max-height: 80px;
 }
 
-.like-active.basic3{
-  background: #7CC576;
-  transform: rotate(-360deg);
+.meal-list .meal-photo img {
+  width: 100px;
+  height: 100px;
+  max-width: 80px;
+  max-height: 80px;
 }
 
-.like-toggle.basic3:not(.like-active):hover{
-  background: #F26C4F;
-  transform: rotate(90deg);
-}
-  
 body {
   line-height: 1.5;
   font-family: 'Roboto';
@@ -174,6 +121,7 @@ p {
   font-weight: 300;
   margin: 0 0 2.4rem 0;
 }
+
 h1,
 h2,
 h3 {
@@ -185,11 +133,13 @@ a {
   color: inherit;
   font-weight: 400;
 }
+
 button {
   appearance: none;
   -webkit-appearance: none;
   border: none;
 }
+
 button:focus {
   outline: none;
 }
