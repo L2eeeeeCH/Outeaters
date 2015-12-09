@@ -107,6 +107,12 @@ ul.meal-list li{
   max-height: 80px;
 }
 
+.meal-photo img {
+  width: 100px;
+  height: 100px;
+  max-width: 80px;
+  max-height: 80px;
+}
 body {
   line-height: 1.5;
   font-family: 'Roboto';
