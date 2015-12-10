@@ -76,7 +76,7 @@ html, body {
 /* font */
 /* line 22, ../sass/homepage.scss */
 a {
-  font-family: 'Noto Sans';
+  font-family: 'cwTeXHei', sans-serif;
 }
 
 /* line 25, ../sass/homepage.scss */
@@ -86,7 +86,7 @@ h1 {
 
 /* line 28, ../sass/homepage.scss */
 h2, h3, h4, p {
-  font-family: 'Noto Sans';
+  font-family: 'cwTeXHei', sans-serif;
 }
 
 /* line 32, ../sass/homepage.scss */
