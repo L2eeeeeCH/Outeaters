@@ -14,6 +14,7 @@
     <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/earlyaccess/cwtexhei.css' rel='stylesheet' type='text/css'>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="flat-ui/dist/css/flat-ui.min.css">
     <link href="css/stylesheets/homepage.css"  rel="stylesheet" type="text/css" />
     <link href="css/stylesheets/animate.css" rel="stylesheet">
     <link rel="stylesheet" href="css/stylesheets/creatMeal.css">
@@ -73,7 +74,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">分享你最愛的一道餐點</h4>
+                    <h4 class="modal-title">Create a Meal</h4>
                 </div>
                 <div class="modal-body">
                     <div id="modal-up">
@@ -81,18 +82,17 @@
                             <img id="preview" src="http://placehold.it/300x200" width="300" height="200" alt="preview de la imagen" />
                         </div>
                         <div>
-                            <label id="modal-labelbtn" for="file">選取檔案</label>
+                            <label id="modal-labelbtn" for="file">Select file</label>
                             <input  id="modal-imgInp" type='file' />
                         </div>
                     </div> 
                     <div id="modal-down">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="RestaurantText" placeholder="餐廳名稱">
-                        </div>
-                        <div class="form-group">
                             <input type="text" class="form-control" id="MealText" placeholder="餐點名稱">
                         </div>
-
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="RestaurantText" placeholder="餐廳名稱">
+                        </div>
                         <div class="form-group">
                             <textarea class="form-control" rows="3" id="comment" placeholder="評論(限定字數10~50)"></textarea>
                         </div>
@@ -100,7 +100,7 @@
                 </div>
             
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default">發佈</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -121,6 +121,11 @@
 
       <div id="Discover" class ="discover-content container" >
         <h2>探索你的餐點</h2><hr>
+        <div class="btn-group">
+            <a class="btn btn-primary active" href="">附近</a>
+            <a class="btn btn-primary" href="">最熱</a>
+            <a class="btn btn-primary" href="">最新</a>
+        </div>
       </div>
 
       <div class ="container masonry" id ="container">
@@ -131,24 +136,42 @@
         	</a>
         </div>
 
-        <div class ="item wow bounceInUp ">
+        <div class ="item wow bounceInUp">
             <img src ="img/food1.jpg" class="img-responsive" />
             <div class ="figcaption">
-                <h4>鼎泰豐</h4>
-                <p>黃金炒飯</p>
+                <h4>黃金炒飯</h4>
+                <p>鼎泰豐</p>
             </div>
         </div>
 
         <div class ="item wow bounceInUp ">
             <img src ="img/food2.jpg" class="img-responsive" />
             <div class ="figcaption">
-                <h4>麥當勞</h4>
-                <p>薯條</p>
+                <h4>薯條</h4>
+                <p>麥當勞</p>
             </div>
         </div>
-        <div class ="item wow bounceInUp "><img src ="img/food3.jpg" class="img-responsive" /></div>
-        <div class ="item wow bounceInUp "><img src ="img/food4.jpg" class="img-responsive" /></div>
-        <div class ="item wow bounceInUp "><img src ="img/food5.jpg" class="img-responsive" /></div>
+        <div class ="item wow bounceInUp ">
+            <img src ="img/food3.jpg" class="img-responsive" />
+            <div class ="figcaption">
+                <h4>薯條</h4>
+                <p>麥當勞</p>
+            </div>
+        </div>
+        <div class ="item wow bounceInUp ">
+            <img src ="img/food4.jpg" class="img-responsive" />
+            <div class ="figcaption">
+                <h4>薯條</h4>
+                <p>麥當勞</p>
+            </div>
+        </div>
+        <div class ="item wow bounceInUp ">
+            <img src ="img/food5.jpg" class="img-responsive" />
+            <div class ="figcaption">
+                <h4>薯條</h4>
+                <p>麥當勞</p>
+            </div>
+        </div>
         <div class ="item wow bounceInUp "><img src ="img/food6.jpg" class="img-responsive" /></div>
         <div class ="item wow bounceInUp "><img src ="img/food7.jpg" class="img-responsive" /></div>
         <div class ="item wow bounceInUp "><img src ="img/food8.jpg" class="img-responsive" /></div>
@@ -273,7 +296,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>關於我們</h2><hr>
-                    <h3>甚麼是L²eeeeeCH ? </h3>
+                    <h3>甚麼是<span>L²eeeeeCH</span> ? </h3>
                 </div>
             </div>
 
