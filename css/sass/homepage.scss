@@ -19,11 +19,14 @@ html,body {
 }
 
 /* font */
+a {
+  font-family: 'Noto Sans';
+}
 h1{
   font-family: 'Lobster', cursive;
 }
-a, h2, h3, h4, p{
-  font-family: 'cwTeXHei', sans-serif;
+h2, h3, h4, p{
+  font-family: 'Noto Sans';
 }
 
 hr {
@@ -201,13 +204,9 @@ header {
 }
 
 #container {
-  padding-left: 100px;  
+  padding-left: 100px;
+  
 }
-
-.btn-group {
-    background: yellow;
-    margin-bottom: 20px;
-  }
 
 .item {
   
@@ -217,7 +216,6 @@ header {
   margin: 5px;
   width: 220px;
   text-align: center;
-  background: #ecf0f1;
 
   *{
     @include box-sizing(border-box);
@@ -231,7 +229,8 @@ header {
   }
 
   &:hover img{
-    opacity: 0.8;
+    opacity: 0.3;
+    @include filter(blur(4px));
   }
 
   .figcaption {
@@ -254,16 +253,14 @@ header {
     display: inline-block;
     bottom: 50%;
     font-size: 30px;
-    font-weight: 800;
-    color:white;
+    color:$navBartitle;
     @include transform(translate3d(0%, -100%, 0));
   }
 
   p {
     top: 50%;
     font-size: 20px;
-    font-weight: 600;
-    color:white;
+    color:gray;
     @include transform(translate3d(0%, 100%, 0)); /*to go down 100%*/
   }
 
@@ -274,7 +271,7 @@ header {
 
    &:hover p{
    @include transform(translate3d(0%, 10%, 0));
-   opacity: 0.7;
+   opacity: 0.6;
   }
   
 
@@ -299,15 +296,10 @@ header {
       height:220px;
       margin: 0 auto;
     }
-    h3 {
-      margin-bottom: $margin-top-space;
-      font-family: 'Lobster', cursive;
-    } 
-
   }
 
-  span {
-    font-family: 'Lobster', cursive;
+  h3{
+    margin-bottom: $margin-top-space;
   } 
 
 }
@@ -334,7 +326,6 @@ header {
       color:white;
       font-size: 30px;
       margin-bottom: $margin-top-space;
-      font-family: 'Lobster', cursive;
       span{
         color:$navBartitle;
       }
