@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -75,28 +75,23 @@ html, body {
 
 /* font */
 /* line 22, ../sass/homepage.scss */
-a {
-  font-family: 'cwTeXHei', sans-serif;
-}
-
-/* line 25, ../sass/homepage.scss */
 h1 {
   font-family: 'Lobster', cursive;
 }
 
-/* line 28, ../sass/homepage.scss */
-h2, h3, h4, p {
+/* line 25, ../sass/homepage.scss */
+a, h2, h3, h4, p {
   font-family: 'cwTeXHei', sans-serif;
 }
 
-/* line 32, ../sass/homepage.scss */
+/* line 29, ../sass/homepage.scss */
 hr {
   border: none;
   border: 3px solid #1abc9c;
   max-width: 60px;
 }
 
-/* line 38, ../sass/homepage.scss */
+/* line 35, ../sass/homepage.scss */
 h2 {
   position: relative;
   margin-top: 50px;
@@ -105,7 +100,7 @@ h2 {
   color: gray;
 }
 
-/* line 46, ../sass/homepage.scss */
+/* line 43, ../sass/homepage.scss */
 h3 {
   position: relative;
   margin-top: 15px;
@@ -115,7 +110,7 @@ h3 {
 }
 
 /*navbar Content*/
-/* line 59, ../sass/homepage.scss */
+/* line 56, ../sass/homepage.scss */
 .navbar {
   background: transparent;
   border-color: transparent;
@@ -124,34 +119,34 @@ h3 {
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
-/* line 64, ../sass/homepage.scss */
+/* line 61, ../sass/homepage.scss */
 .navbar .navbar-header .navbar-brand {
   font-size: 24px;
   color: #1abc9c;
 }
-/* line 70, ../sass/homepage.scss */
+/* line 67, ../sass/homepage.scss */
 .navbar .navbar-toggle {
   border: 1px solid #1abc9c;
   border-color: #1abc9c;
 }
-/* line 74, ../sass/homepage.scss */
+/* line 71, ../sass/homepage.scss */
 .navbar .navbar-toggle .icon-bar {
   background-color: #1abc9c;
 }
-/* line 79, ../sass/homepage.scss */
+/* line 76, ../sass/homepage.scss */
 .navbar .nav > li > a {
   color: #1abc9c;
 }
-/* line 82, ../sass/homepage.scss */
+/* line 79, ../sass/homepage.scss */
 .navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
   color: #16a085;
   background: transparent;
 }
-/* line 87, ../sass/homepage.scss */
+/* line 84, ../sass/homepage.scss */
 .navbar .nav > li > a:active {
   background: transparent;
 }
-/* line 92, ../sass/homepage.scss */
+/* line 89, ../sass/homepage.scss */
 .navbar .nav > li.active > a {
   /*when scrolling ,navbar will change color*/
   background: #16a085;
@@ -162,39 +157,39 @@ h3 {
 }
 
 /*srolling change */
-/* line 101, ../sass/homepage.scss */
+/* line 98, ../sass/homepage.scss */
 .navbar.affix {
   background: #1abc9c;
 }
-/* line 104, ../sass/homepage.scss */
+/* line 101, ../sass/homepage.scss */
 .navbar.affix .navbar-toggle {
   border: 1px solid white;
   border-color: white;
 }
-/* line 108, ../sass/homepage.scss */
+/* line 105, ../sass/homepage.scss */
 .navbar.affix .navbar-toggle .icon-bar {
   background-color: white;
 }
-/* line 113, ../sass/homepage.scss */
+/* line 110, ../sass/homepage.scss */
 .navbar.affix .navbar-header .navbar-brand {
   font-size: 30px;
   color: white;
 }
-/* line 119, ../sass/homepage.scss */
+/* line 116, ../sass/homepage.scss */
 .navbar.affix .nav > li > a {
   color: white;
 }
-/* line 123, ../sass/homepage.scss */
+/* line 120, ../sass/homepage.scss */
 .navbar.affix .nav > li > a:hover, .navbar.affix .nav > li > a:focus {
   background: #16a085;
 }
 
 /*Background Image and content */
-/* line 131, ../sass/homepage.scss */
+/* line 128, ../sass/homepage.scss */
 header {
   height: 100%;
 }
-/* line 134, ../sass/homepage.scss */
+/* line 131, ../sass/homepage.scss */
 header .fixed-background {
   width: 100%;
   height: 100%;
@@ -205,7 +200,7 @@ header .fixed-background {
   -webkit-background-size: cover;
   background-size: cover;
 }
-/* line 143, ../sass/homepage.scss */
+/* line 140, ../sass/homepage.scss */
 header .header-content {
   position: relative;
   width: 100%;
@@ -216,18 +211,18 @@ header .header-content {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 150, ../sass/homepage.scss */
+/* line 147, ../sass/homepage.scss */
 header .header-content h1 {
   font-size: 80px;
   color: white;
 }
-/* line 155, ../sass/homepage.scss */
+/* line 152, ../sass/homepage.scss */
 header .header-content h1 span {
   color: #1abc9c;
 }
 
 /*header Button*/
-/* line 164, ../sass/homepage.scss */
+/* line 161, ../sass/homepage.scss */
 .btn-circle {
   width: 70px;
   height: 70px;
@@ -238,20 +233,20 @@ header .header-content h1 span {
   font-size: 40px;
   color: #fff;
 }
-/* line 173, ../sass/homepage.scss */
+/* line 170, ../sass/homepage.scss */
 .btn-circle:hover, .btn-circle:focus {
   outline: 0;
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
 }
-/* line 179, ../sass/homepage.scss */
+/* line 176, ../sass/homepage.scss */
 .btn-circle i.animated {
   -webkit-transition-property: -webkit-transform;
   -webkit-transition-duration: 2s;
   -moz-transition-property: -moz-transform;
   -moz-transition-duration: 2s;
 }
-/* line 186, ../sass/homepage.scss */
+/* line 183, ../sass/homepage.scss */
 .btn-circle:hover i.animated {
   -webkit-animation-name: pulse;
   -moz-animation-name: pulse;
@@ -264,19 +259,19 @@ header .header-content h1 span {
 }
 
 /*Masonry Content*/
-/* line 200, ../sass/homepage.scss */
+/* line 197, ../sass/homepage.scss */
 .MasonryContent {
   background: white;
   /*inorder to hide the footer*/
   position: relative;
 }
 
-/* line 206, ../sass/homepage.scss */
+/* line 203, ../sass/homepage.scss */
 #container {
   padding-left: 100px;
 }
 
-/* line 211, ../sass/homepage.scss */
+/* line 208, ../sass/homepage.scss */
 .item {
   position: relative;
   float: left;
@@ -284,8 +279,9 @@ header .header-content h1 span {
   margin: 5px;
   width: 220px;
   text-align: center;
+  background: #ecf0f1;
 }
-/* line 220, ../sass/homepage.scss */
+/* line 218, ../sass/homepage.scss */
 .item * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -295,7 +291,7 @@ header .header-content h1 span {
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
-/* line 226, ../sass/homepage.scss */
+/* line 224, ../sass/homepage.scss */
 .item img {
   width: 100%;
   -moz-transition: opacity 0.35s;
@@ -303,13 +299,11 @@ header .header-content h1 span {
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
 }
-/* line 231, ../sass/homepage.scss */
+/* line 229, ../sass/homepage.scss */
 .item:hover img {
-  opacity: 0.3;
-  -webkit-filter: blur(4px);
-  filter: blur(4px);
+  opacity: 0.8;
 }
-/* line 236, ../sass/homepage.scss */
+/* line 233, ../sass/homepage.scss */
 .item .figcaption {
   position: absolute;
   bottom: 0;
@@ -317,7 +311,7 @@ header .header-content h1 span {
   width: 100%;
   height: 100%;
 }
-/* line 244, ../sass/homepage.scss */
+/* line 241, ../sass/homepage.scss */
 .item h4, .item p {
   position: absolute;
   width: 100%;
@@ -325,29 +319,31 @@ header .header-content h1 span {
   opacity: 0;
   /* let the word be not seen*/
 }
-/* line 252, ../sass/homepage.scss */
+/* line 249, ../sass/homepage.scss */
 .item h4 {
   display: inline-block;
   bottom: 50%;
   font-size: 30px;
-  color: #1abc9c;
+  font-weight: 800;
+  color: white;
   -moz-transform: translate3d(0%, -100%, 0);
   -ms-transform: translate3d(0%, -100%, 0);
   -webkit-transform: translate3d(0%, -100%, 0);
   transform: translate3d(0%, -100%, 0);
 }
-/* line 260, ../sass/homepage.scss */
+/* line 258, ../sass/homepage.scss */
 .item p {
   top: 50%;
   font-size: 20px;
-  color: gray;
+  font-weight: 600;
+  color: white;
   -moz-transform: translate3d(0%, 100%, 0);
   -ms-transform: translate3d(0%, 100%, 0);
   -webkit-transform: translate3d(0%, 100%, 0);
   transform: translate3d(0%, 100%, 0);
   /*to go down 100%*/
 }
-/* line 267, ../sass/homepage.scss */
+/* line 266, ../sass/homepage.scss */
 .item:hover h4 {
   -moz-transform: translate3d(0%, -10%, 0);
   -ms-transform: translate3d(0%, -10%, 0);
@@ -355,41 +351,46 @@ header .header-content h1 span {
   transform: translate3d(0%, -10%, 0);
   opacity: 0.9;
 }
-/* line 272, ../sass/homepage.scss */
+/* line 271, ../sass/homepage.scss */
 .item:hover p {
   -moz-transform: translate3d(0%, 10%, 0);
   -ms-transform: translate3d(0%, 10%, 0);
   -webkit-transform: translate3d(0%, 10%, 0);
   transform: translate3d(0%, 10%, 0);
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 /* Our team content */
-/* line 282, ../sass/homepage.scss */
+/* line 281, ../sass/homepage.scss */
 .about-us {
   background-color: white;
   margin-bottom: 300px;
   position: relative;
   text-align: center;
 }
-/* line 289, ../sass/homepage.scss */
+/* line 288, ../sass/homepage.scss */
 .about-us .team-member {
   text-align: center;
   margin-top: 20px;
 }
-/* line 294, ../sass/homepage.scss */
+/* line 293, ../sass/homepage.scss */
 .about-us .team-member img {
   width: 220px;
   height: 220px;
   margin: 0 auto;
 }
-/* line 301, ../sass/homepage.scss */
-.about-us h3 {
+/* line 298, ../sass/homepage.scss */
+.about-us .team-member h3 {
   margin-bottom: 20px;
+  font-family: 'Lobster', cursive;
+}
+/* line 305, ../sass/homepage.scss */
+.about-us span {
+  font-family: 'Lobster', cursive;
 }
 
 /*Footer Content*/
-/* line 308, ../sass/homepage.scss */
+/* line 312, ../sass/homepage.scss */
 .Contact {
   width: 100%;
   height: 300px;
@@ -400,7 +401,7 @@ header .header-content h1 span {
   text-align: center;
   z-index: -1;
 }
-/* line 319, ../sass/homepage.scss */
+/* line 323, ../sass/homepage.scss */
 .Contact .contact-content {
   position: relative;
   top: 50%;
@@ -409,21 +410,22 @@ header .header-content h1 span {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 325, ../sass/homepage.scss */
+/* line 329, ../sass/homepage.scss */
 .Contact .contact-content p {
   color: white;
   font-size: 30px;
   margin-bottom: 20px;
+  font-family: 'Lobster', cursive;
 }
-/* line 329, ../sass/homepage.scss */
+/* line 334, ../sass/homepage.scss */
 .Contact .contact-content p span {
   color: #1abc9c;
 }
-/* line 334, ../sass/homepage.scss */
+/* line 339, ../sass/homepage.scss */
 .Contact .contact-content li {
   display: inline;
 }
-/* line 337, ../sass/homepage.scss */
+/* line 342, ../sass/homepage.scss */
 .Contact .contact-content li #social-website {
   width: 50px;
   height: 50px;
@@ -433,7 +435,7 @@ header .header-content h1 span {
   margin: 5px;
   color: white;
 }
-/* line 346, ../sass/homepage.scss */
+/* line 351, ../sass/homepage.scss */
 .Contact .contact-content li #social-website:hover {
   color: #16a085;
   border: 1px solid #16a085;

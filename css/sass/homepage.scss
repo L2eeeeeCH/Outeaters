@@ -19,14 +19,11 @@ html,body {
 }
 
 /* font */
-a {
-  font-family: 'Noto Sans';
-}
 h1{
   font-family: 'Lobster', cursive;
 }
-h2, h3, h4, p{
-  font-family: 'Noto Sans';
+a, h2, h3, h4, p{
+  font-family: 'cwTeXHei', sans-serif;
 }
 
 hr {
@@ -216,6 +213,7 @@ header {
   margin: 5px;
   width: 220px;
   text-align: center;
+  background: #ecf0f1;
 
   *{
     @include box-sizing(border-box);
@@ -229,8 +227,7 @@ header {
   }
 
   &:hover img{
-    opacity: 0.3;
-    @include filter(blur(4px));
+    opacity: 0.8;
   }
 
   .figcaption {
@@ -253,14 +250,16 @@ header {
     display: inline-block;
     bottom: 50%;
     font-size: 30px;
-    color:$navBartitle;
+    font-weight: 800;
+    color:white;
     @include transform(translate3d(0%, -100%, 0));
   }
 
   p {
     top: 50%;
     font-size: 20px;
-    color:gray;
+    font-weight: 600;
+    color:white;
     @include transform(translate3d(0%, 100%, 0)); /*to go down 100%*/
   }
 
@@ -271,7 +270,7 @@ header {
 
    &:hover p{
    @include transform(translate3d(0%, 10%, 0));
-   opacity: 0.6;
+   opacity: 0.7;
   }
   
 
@@ -296,10 +295,15 @@ header {
       height:220px;
       margin: 0 auto;
     }
+    h3 {
+      margin-bottom: $margin-top-space;
+      font-family: 'Lobster', cursive;
+    } 
+
   }
 
-  h3{
-    margin-bottom: $margin-top-space;
+  span {
+    font-family: 'Lobster', cursive;
   } 
 
 }
@@ -326,6 +330,7 @@ header {
       color:white;
       font-size: 30px;
       margin-bottom: $margin-top-space;
+      font-family: 'Lobster', cursive;
       span{
         color:$navBartitle;
       }
