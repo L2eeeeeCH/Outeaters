@@ -85,7 +85,7 @@ h1 {
 }
 
 /* line 28, ../sass/homepage.scss */
-h2, h3, h4, p {
+h2, h3, h4, p , #modal-labelbtn, .form-control, button{
   font-family: 'cwTeXHei', sans-serif;
 }
 
