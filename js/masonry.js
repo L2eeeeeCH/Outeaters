@@ -1,6 +1,6 @@
 $(function(){
   
-  $('container').imagesLoaded(function(){
+  $('#container').imagesLoaded(function(){
     $('#container').masonry({
       // options
       isFitWidth: true,
