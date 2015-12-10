@@ -1,5 +1,7 @@
 body {
   padding-bottom: 20px;
+  font-family: 'cwTeXHei', sans-serif;
+  font-size: 14px;
 }
 
 .jumbotron {
@@ -9,7 +11,7 @@ body {
 	height: 460px;
 }
 .jumbotron button {
-	margin-top: 200px;
+	margin-top: 170px;
 }
 button.create-meal {
 	margin-right: 3px; 
@@ -17,7 +19,6 @@ button.create-meal {
 h1 {
 	margin-bottom: 15px;
 }
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 html {
   box-sizing: border-box;
 }
@@ -27,8 +28,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  
 }
 /* Bar Delays Animation Function */
 /* Chart Styles */
@@ -45,7 +45,7 @@ body {
 }
 .chart-wrap .row {
   position: relative;
-  height: 26px;
+  height: 30px;
   margin-bottom: 15px;
 }
 .chart-wrap .bar-wrap {
@@ -95,7 +95,7 @@ body {
   width: 150px;
   padding-left: 10px;
   text-align: left;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 26px;
   text-transform: uppercase;
   font-weight: bold;
