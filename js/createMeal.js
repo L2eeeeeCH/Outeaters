@@ -9,7 +9,7 @@ function readURL(input) {
     }
 }
     
-$("#modal-imgInp").change(function(){
+$("#imgInp").change(function(){
     readURL(this);
 });
 

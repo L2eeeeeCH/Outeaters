@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Outeaters - restaurant</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="flat-ui/dist/css/flat-ui.min.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+        <link rel="stylesheet" type="text/css" href="css/stylesheets/header.css">
+
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/earlyaccess/cwtexhei.css' rel='stylesheet' type='text/css'>
+                <link rel="stylesheet" href="css/stylesheets/creatMeal.css">
+    </head>
+    <body>
+
+        <nav id="mainNav" class="navbar" >
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Outeaters</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li>
+                            <a href="login_signup.html">註冊 / 登入</a>
+                        </li>
+
+                        
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    
+        <div class="body">
+            <div class="header">
+                <h4 id="title">分享你最愛的一道餐點</h4>
+            </div>
+            <div class="body">
+                <div id="up">
+                    <div>        
+                        <img id="preview" src="http://placehold.it/400x300" width="400" height="300" alt="preview de la imagen" />
+                    </div>
+                    <div>
+                       
+                        <button type="button" id="labelbtn" class="btn btn-primary">選擇檔案</button> 
+                        <input  id="imgInp" type='file' />
+                    </div>
+                </div> 
+                <div id="down">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="MealText" placeholder="餐點名稱">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="RestaurantText" placeholder="餐廳名稱">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="3" id="comment" placeholder="評論(限定字數10~50)"></textarea>
+                    </div>
+                    <div>
+                        <button type="button" id="send" class="btn btn-primary">發佈</button>   
+                    </div>
+                </div>
+            </div>
+        
+
+        </div>
+ 
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script> 
+
+
+    <script src="js/createMeal.js"></script>
+ <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+
+    <!--From like button -->
+  </body>
+</html>

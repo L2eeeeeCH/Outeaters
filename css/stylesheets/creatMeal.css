@@ -1,46 +1,42 @@
-.modal{
-  position: fixed;
-  top: 10%;
+#title{
+  text-align: center; 
 }
-.modal-body{
-  height:470px;
+.body{
+  height: 640px;
 }
-.modal-content {
-  border-radius: 0px;
-}
-#modal-up{
-  width:300px;
-  height:230px;
+
+#up{
+  width:400px;
+  height:350px;
   margin:0 auto; 
   position: relative;
 }
-#modal-down{
-  width:300px;
-  height:150px;
+#down{
+  width:400px;
+  height:250px;
   margin:0 auto;
-
+  margin-top: 10px;
+  position: relative;
 }
-#modal-imgInp,#modal-labelbtn {
+#imgInp, #labelbtn, #send {
   width:100px;
-  height:30px;
-  margin:auto;  
   position: absolute;
   right:0;
   bottom:0;
 }
-#modal-labelbtn {
-  padding-top: 5px;
-  text-align: center;
-}
-#modal-imgInp {
+
+#imgInp {
   opacity: 0; 
 }
 
-.modal-header{
+.header{
   position: relative;
   margin-top: 0px;
   font-family: sans-serif;
   font-size: 18px;
   color: #333;
   margin-bottom: 0px;
+}
+.form-group{
+  margin-bottom: 10px;
 }
